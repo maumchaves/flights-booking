@@ -1,3 +1,5 @@
+Find [screenshots](#screenshots) at the end of this document.
+
 ## Running the project
 
 ```
@@ -62,3 +64,14 @@ Currently, there is only support for one hard coded flight. If you want to apply
 - Tests: we need some confidence here and there is a lot of logic going on when assigning seats.
 - The bonus features: adding aircraft to the fleet and changing seats after random assignment.
 - Adding more flights and being able to book per flight.
+
+## <a name="screenshots"></a>Screenshots
+
+### Initial form
+![Initial form](https://github.com/maumchaves/flights-booking/blob/master/screenshots/initial-form.png)
+
+### Plane map
+![Plane map](https://github.com/maumchaves/flights-booking/blob/master/screenshots/plane-map.png)
+
+### Succeed
+![Succeed](https://github.com/maumchaves/flights-booking/blob/master/screenshots/succeed.png)
