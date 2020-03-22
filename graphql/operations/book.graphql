@@ -1,0 +1,7 @@
+mutation Book(
+  $flightNumber: String!
+  $traveller: String!
+  $seats: [SeatInput!]!
+) {
+  book(flightNumber: $flightNumber, traveller: $traveller, seats: $seats)
+}

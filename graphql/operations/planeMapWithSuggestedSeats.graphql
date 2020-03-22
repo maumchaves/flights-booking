@@ -1,0 +1,21 @@
+query PlaneMapWithSuggestedSeats(
+  $flightNumber: String!
+  $requestedSeats: Int!
+) {
+  planeMapWithSuggestedSeats(
+    flightNumber: $flightNumber
+    requestedSeats: $requestedSeats
+  ) {
+    planeMap {
+      status
+      row
+      block
+      position
+    }
+    suggestedSeats {
+      row
+      block
+      position
+    }
+  }
+}

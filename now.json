@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "APOLLO_SERVER_URL": "@apollo-server-url"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+type Query {
+  planeOccupancyMap(flightNumber: String!): [[[Seat!]!]!]!
+  planeMapWithSuggestedSeats(
+    flightNumber: String!
+    requestedSeats: Int!
+  ): PlaneMapWithSuggestedSeats
+}
+
+type Mutation {
+  book(flightNumber: String!, traveller: String!, seats: [SeatInput!]!): Boolean
+}
+
+enum SeatStatus {
+  Available
+  Booked
+  Selected
+}
+
+type Seat {
+  traveller: String
+  status: SeatStatus!
+  row: Int!
+  block: Int!
+  position: Int!
+}
+
+input SeatInput {
+  traveller: String
+  row: Int!
+  block: Int!
+  position: Int!
+}
+
+type PlaneMapWithSuggestedSeats {
+  planeMap: [[[Seat!]!]!]!
+  suggestedSeats: [Seat!]!
+}

@@ -1,0 +1,8 @@
+query PlaneOccupancyMap($flightNumber: String!) {
+  planeOccupancyMap(flightNumber: $flightNumber) {
+    status
+    row
+    block
+    position
+  }
+}
