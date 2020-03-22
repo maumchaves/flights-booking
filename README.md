@@ -1,7 +1,9 @@
 ## Running the project
 
-`npm i`
-`npm run dev`
+```
+npm i
+npm run dev
+```
 
 and then go to http://localhost:3000/.
 
@@ -34,7 +36,7 @@ Given that this project is expected to be easily run in a personal machine, with
 
 According to the convention for this project, the name of the file corresponds to the flight number and its content has the following structure:
 
-```json
+```
 {
   // PlaneMap -> List of Rows
   "planeMap": [
