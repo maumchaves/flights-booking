@@ -24,7 +24,7 @@
     "firebase-admin": "^8.9.2",
     "graphql": "^14.5.8",
     "isomorphic-unfetch": "^3.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mongodb": "^3.5.1",
     "next": "^9.2.0",
     "next-plugin-graphql": "0.0.2",
