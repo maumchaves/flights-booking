@@ -18,7 +18,7 @@
     "@emotion/styled": "^10.0.27",
     "apollo-boost": "^0.4.7",
     "apollo-datasource": "^0.6.4",
-    "apollo-server": "^2.9.16",
+    "apollo-server": "^2.25.3",
     "apollo-server-micro": "^2.9.16",
     "emotion-theming": "^10.0.27",
     "firebase-admin": "^8.9.2",
